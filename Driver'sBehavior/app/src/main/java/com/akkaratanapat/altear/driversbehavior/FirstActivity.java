@@ -276,10 +276,10 @@ public class FirstActivity extends AppCompatActivity implements SensorEventListe
             else if(minSp != 0&& minSp>speed && speed != 0.0){
                 minSp = speed;
             }
-            //avSpeed.setText(formatter.format(avSp) + " m/s");
-            maxSpeed.setText(location.getLatitude()+"");
-            minSpeed.setText(location.getLongitude()+"");
-            currentSpeed.setText(location.getSpeed() + " m/s");
+            avSpeed.setText(formatter.format(avSp) + " m/s");
+            maxSpeed.setText(formatter.format(maxSp)+"");
+            minSpeed.setText(formatter.format(minSp)+"");
+            currentSpeed.setText(formatter.format(speed) + " m/s");
             counter++;
 
 //            try{
