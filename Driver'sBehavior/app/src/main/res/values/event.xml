@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event_array">
+        <item>Normal</item>
+        <item>Accelelate</item>
+        <item>Accelelate suddenly</item>
+        <item>Brake</item>
+        <item>Brake suddenly</item>
+        <item>Turn left</item>
+        <item>Turn left suddenly</item>
+        <item>Turn right</item>
+        <item>Turn right suddenly</item>
+        <item>Overtake(right)</item>+
+        <item>Overtake suddenly(right)</item>
+        <item>Undertake(left)</item>
+        <item>Undertake suddenly(left)</item>
+        <item>Other</item>
+    </string-array>
+</resources>
